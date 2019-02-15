@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="tt_International_new" transform="translate(-280.000000, -553.000000)" stroke="#FFFFFF">
+            <g id="facebook" transform="translate(281.000000, 554.000000)">
+                <path d="M16.2093443,11.7490328 L16.2093443,10.4491967 C16.2093443,9.8157541 16.6318033,9.66821311 16.9283607,9.66821311 L18.7519672,9.66821311 L18.7519672,6.88263934 L16.2403279,6.87181967 C13.4527869,6.87181967 12.8188525,8.94968852 12.8188525,10.2795246 L12.8188525,11.7490328 L11.2067213,11.7490328 L11.2067213,13.7132951 L11.2067213,14.9998525 L12.832623,14.9998525 L12.832623,23.1278852 L16.0839344,23.1278852 L16.0839344,14.9998525 L18.4967213,14.9998525 L18.6132787,13.7231311 L18.7932787,11.7490328 L16.2093443,11.7490328 Z" id="facebook_icon"></path>
+                <polygon id="icon-border" points="0.245901639 29.7540984 29.7540984 29.7540984 29.7540984 0.245901639 0.245901639 0.245901639"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
