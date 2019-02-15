@@ -13980,7 +13980,7 @@ button.btn {
 
 .banner {
 	position: relative;
-	height: 500px;
+	height: calc(100vh - 444px - 130px);
 	background-image: url("../img/banner-bg.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
@@ -14006,7 +14006,7 @@ button.btn {
 
 .banner__title {
 	margin: 0;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	font-weight: 900;
 	color: #fff;
 	opacity: 0.9;
@@ -14263,6 +14263,11 @@ button.btn {
 }
 
 @media (min-width: 1256px) {
+	.service > .container {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
 	.service__content {
 		width: 85%;
 	}
