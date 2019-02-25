@@ -14627,6 +14627,10 @@ button.btn {
 	align-items: center;
 }
 
+.products__link:active {
+	opacity: 0.5;
+}
+
 .products__icon {
 	width: 80px;
 	height: 80px;
@@ -14795,13 +14799,6 @@ button.btn {
 		height: 1px;
 		background-color: #C6A17C;
 		transform: rotate(45deg);
-	}
-
-	.scheme__item--selected::after {
-		width: 10px;
-		top: 2px;
-		transform: rotate(0);
-		transform-origin: 0 0;
 	}
 
 	.scheme__item--1 {
@@ -15154,7 +15151,7 @@ button.btn {
 		grid-template-columns: repeat(7, 1fr);
 		justify-content: space-between;
 		grid-gap: 0;
-		min-height: 145px;
+		min-height: 165px;
 	}
 
 	.products__item {
@@ -15162,12 +15159,13 @@ button.btn {
 	}
 
 	.products__link {
-		padding-top: 20px;
+		padding: 20px;
 		height: 100%;
 	}
 
 	.products__link:hover {
 		transition-duration: 0.4s;
+		transition-property: box-shadow;
 		box-shadow: 0 0 5px 0 rgba(81, 62, 42, 1);
 	}
 
