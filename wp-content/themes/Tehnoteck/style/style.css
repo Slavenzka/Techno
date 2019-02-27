@@ -13999,10 +13999,6 @@ button.btn {
 	background-repeat: no-repeat;
 }
 
-.banner--services {
-	height: calc(100vh - 444px - 130px);
-}
-
 .banner::before {
 	content: "";
 	position: absolute;
@@ -14058,6 +14054,7 @@ button.btn {
 .service > .container {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	min-height: calc(100vh - 400px - 130px);
 }
 
 .service__list {
@@ -14087,6 +14084,10 @@ button.btn {
 	margin: 0 auto;
 	width: 96px;
 	height: 110px;
+}
+
+.service__icon use {
+	fill: #C6A17C;
 }
 
 .service__name {
@@ -14360,10 +14361,6 @@ button.btn {
 .reagents__icon {
 	width: auto;
 	transition-duration: 0.3s;
-}
-
-.reagents__link:hover .reagents__icon {
-	transform: scale(1.2);
 }
 
 .reagents__link:hover .reagents__icon use {
@@ -15046,6 +15043,10 @@ button.btn {
 }
 
 @media (min-width: 1256px) {
+	.banner__link {
+		right: 0;
+	}
+
 	.service > .container {
 		padding-top: 60px;
 		padding-bottom: 60px;
