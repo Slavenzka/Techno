@@ -8907,7 +8907,7 @@ ul li {
 }
 
 img,
-svg:not(.reagents__icon):not(.service__icon) {
+svg:not(.reagents__icon):not(.service__icon):not(.products__icon) {
 	height: 100%
 }
 
@@ -12080,7 +12080,7 @@ h1.main {
 .form-group,
 img,
 input,
-svg:not(.reagents__icon):not(.service__icon),
+svg:not(.reagents__icon):not(.service__icon):not(.products__icon),
 textarea,
 ul,
 ul li {
