@@ -8907,7 +8907,7 @@ ul li {
 }
 
 img,
-svg {
+svg:not(.reagents__icon):not(.service__icon) {
 	height: 100%
 }
 
@@ -12080,7 +12080,7 @@ h1.main {
 .form-group,
 img,
 input,
-svg,
+svg:not(.reagents__icon):not(.service__icon),
 textarea,
 ul,
 ul li {
@@ -14359,8 +14359,11 @@ button.btn {
 }
 
 .reagents__icon {
-	width: auto;
 	transition-duration: 0.3s;
+}
+
+.reagents__link:hover .reagents__icon {
+	transform: scale(1.3);
 }
 
 .reagents__link:hover .reagents__icon use {
