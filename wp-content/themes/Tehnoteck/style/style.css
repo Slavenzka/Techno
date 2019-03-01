@@ -14362,9 +14362,9 @@ button.btn {
 	transition-duration: 0.3s;
 }
 
-/* .reagents__link:hover .reagents__icon {
-	transform: scale(1.3);
-} */
+.reagents__link:hover .reagents__icon {
+	transform: scale(1.15);
+}
 
 .reagents__link:hover .reagents__icon use {
 	fill: #C6A17C;
