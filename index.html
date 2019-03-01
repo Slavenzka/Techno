@@ -316,6 +316,7 @@ img.emoji {
 <script>
     $( document ).ready(function() {
         var str = window.location.pathname;
+        console.log(window.location.search);
         if(window.location.pathname.indexOf('/en') + 1) {
             str = window.location.pathname.substring(3);
         }
